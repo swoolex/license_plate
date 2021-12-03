@@ -1,0 +1,29 @@
+{
+    "name": "swx/license_plate",
+    "type": "library",
+    "description": "国内车牌号归属地解析",
+    "keywords": [
+        "swoole",
+        "swoole-x",
+        "swoolex",
+        "sw-x",
+        "swx-license_plate"
+    ],
+    "homepage": "https://www.sw-x.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "小黄牛",
+            "email": "1731223728@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "> 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Swx\\LicensePlate\\": "src/"
+        }
+    }
+}
